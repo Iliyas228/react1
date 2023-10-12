@@ -1,0 +1,18 @@
+.qwe a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: 0.03s;
+}
+.qwe a:hover{
+    color: rgb(255, 255, 255);
+    transform: scale(1.2);
+}
+footer{
+    background-color: blue;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 50px;
+    padding: 15px;
+}
+
