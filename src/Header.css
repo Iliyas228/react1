@@ -2,7 +2,7 @@ header nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 50px;
+    min-height: 50px;
     background-color: rgb(33, 108, 221);
 }
 header a{
@@ -14,4 +14,10 @@ header a{
 header a:hover{
     color: rgb(29, 0, 79);
     transform: scale(1.2);
+}
+@media (max-width: 500px){
+    header nav{
+        flex-direction: column;
+        gap: 25px;
+    }
 }
